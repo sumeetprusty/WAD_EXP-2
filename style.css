@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+frameset {
+    border: none;
+    border-radius: none;
+    overflow: hidden;
+    transition: border-color 3s ease-in-out;
+}
+
+frame {
+    border: none;
+    border-radius: none;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+frame[name="f11"] {
+    background-color: aquamarine;
+    color: #fff;
+}
+
+frame[name="f12"] {
+    background-color: aquamarine;
+    color: #fff;
+}
+
+frame[name="f21"] {
+    background-color: white;
+    color: #fff;
+}
+
+frame[name="f22"],
+frame[name="f23"],
+frame[name="f24"],
+frame[name="f25"],
+frame[name="f26"] {
+    background-color: white;
+    color: #fff;
+}
+
+frame[name="f31"] {
+    background-color: aquamarine;
+    color: #fff;
+}
+
+frame[name="ft"] {
+    background-color: aquamarine;
+    color: #fff;
+}
+frame[name="f21"]:hover,
+frame[name="f22"]:hover,
+frame[name="f23"]:hover,
+frame[name="f24"]:hover,
+frame[name="f25"]:hover,
+frame[name="f26"]:hover,
+frame[name="f31"]:hover {
+    border-color: aqua;
+}
+
+frame:hover {
+    background-color: aquamarine;
+}
